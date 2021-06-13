@@ -1,5 +1,5 @@
 <p align="center">
- <img width="200px" height="200px"  src="https://github.com/future4code/molina-labe-commerce5/blob/master/src/img/WhatsApp%20Image%202021-06-13%20at%2016.36.37%20(1).jpeg" align="center" alt="Projeto LaberCommerce" />
+ <img width="200px" height="200px"  src="https://github.com/future4code/molina-labe-commerce5/blob/master/src/img/capacete_astronauta.png" align="center" alt="Projeto LaberCommerce" />
  <h2 align="center">Projeto LaberCommerce</h2>
  <p align="center">Loja ficticia que comercializa equipamentos espaciais </p>
 </p>
@@ -44,14 +44,14 @@
 
 Após feito isso, você deverá clonar esse repositório, para isso abra o seu <b>Git Bash</b> e navegue utilizando linhas de comando até o seu desktop como está como no exemplo abaixo:<br>
  
- *inserir gif aqui*
+ <img src="https://github.com/future4code/molina-labe-commerce5/blob/master/src/img/naveg_desktop.gif"><br>
  
  
 copie o link deste repositório como no passo abaixo : <br>
  
  
- *inserir link aqui*
- 
+ <img src="https://github.com/future4code/molina-labe-commerce5/blob/master/src/img/clone_repo.gif"><br>
+
  no <b>Git Bash</b> coloque o comando ``` git clone``` seguido pelo link do repositório que você copiou:
  
  *git copiando o repositório*
@@ -60,7 +60,7 @@ copie o link deste repositório como no passo abaixo : <br>
  
  *algum gif aqui?*
  
- Em seguida o coloque o comando ```npm run start``` e aguarde o site abrir no seu navegador. 
+ Em seguida coloque o comando ```npm run start``` no <b>Git Bash</b> e aguarde o site abrir no seu navegador. 
  
 </p>
 
