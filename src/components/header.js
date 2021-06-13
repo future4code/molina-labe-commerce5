@@ -8,7 +8,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color: darkgrey;
-position: fixed;
 width: 100%;
 height: 50px;
 `;
@@ -16,11 +15,11 @@ height: 50px;
 const Title = styled.h1`
 padding: 0;
 margin: 0;
-font-size: 1.5em;
+font-size: 1.7em;
 display: flex;
 text-align: center;
 justify-items: center;
-color: blue;
+color: white;
 
 `;
 
@@ -28,7 +27,7 @@ class Header extends React.Component {
   render() {
     return (
       <Container>
-        <Title>Eu sou o Header </Title>
+        <Title>Lab e-commerce</Title>
       </Container>
     );
   }
