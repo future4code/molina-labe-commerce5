@@ -13,15 +13,18 @@
 <h2 align="center"> Tecnlogias utilizadas</h2>
 
 <p align="center">
-  <a href="https://www.w3schools.com/css/" >
-   <img src="https://img.shields.io/badge/CSS-3%20%E2%86%92-gray.svg?color=1572B6&?style=flat&logo=appveyor"/>
-  </a>
-  <a href="https://developer.mozilla.org/pt-BR/docs/orphaned/Web/Guide/HTML/HTML5" >
-   <img src="https://img.shields.io/badge/HTML-5%20%E2%86%92-gray.svg?color=E34F26&?style=flat&logo=appveyor"/>
-  </a>
-    <a href="https://pt-br.reactjs.org/" >
-   <img src="https://img.shields.io/badge/ReactJS-5%20%E2%86%92-gray.svg?color=61DAFB&?style=flat&logo=appveyor"/>
-  </a>
+   <a href="https://www.w3schools.com/css/" >
+    <img src="https://img.shields.io/badge/CSS-3%20%E2%86%92-gray.svg?color=1572B6&?style=flat&logo=appveyor"/>
+   </a>
+   <a href="https://styled-components.com/" >
+    <img src="https://img.shields.io/badge/Styled%20%E2%86%92-gray.svg?color=DB7093&?style=flat&logo=appveyor"/>
+   </a>
+   <a href="https://developer.mozilla.org/pt-BR/docs/orphaned/Web/Guide/HTML/HTML5" >
+    <img src="https://img.shields.io/badge/HTML-5%20%E2%86%92-gray.svg?color=E34F26&?style=flat&logo=appveyor"/>
+   </a>
+   <a href="https://pt-br.reactjs.org/" >
+    <img src="https://img.shields.io/badge/ReactJS%20%E2%86%92-gray.svg?color=61DAFB&?style=flat&logo=appveyor"/>
+   </a>
 </p>
 
 <p align="center">
