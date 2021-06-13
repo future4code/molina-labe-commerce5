@@ -10,7 +10,7 @@ height: 50px;
 position: relative;
 margin: 0;
 margin-top: 90px;
-background-color: darkgrey;
+background-color: #484D50;
 `
 
 const Title = styled.h2`

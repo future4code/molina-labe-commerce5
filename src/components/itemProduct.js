@@ -8,8 +8,9 @@ const ItemProduct = styled.div`
   align-items: center;
   width: 90%;
   height: 275px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 25px;
+  
   img {
     height: 150px;
     width: 150px;
@@ -23,6 +24,7 @@ const ItemProduct = styled.div`
     background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
     background-color: #7892c2;
     border-radius: 10px;
+    border-color: white
     border: 1px solid #4e6096;
     display: inline-block;
     cursor: pointer;
