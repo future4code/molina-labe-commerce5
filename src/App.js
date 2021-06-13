@@ -3,8 +3,8 @@ import GlobalStyle from "./components/global"
 import Header from "./components/header"
 import Footer from "./components/footer"
 import Filter from './components/filter'
-import ItemProducts from './components/ItemProduct'
-import ItemBasket from './components/ItemBasket'
+import ItemProducts from './components/itemProduct'
+import ItemBasket from './components/itemBasket'
 import {list} from './components/list'
 import styled from 'styled-components'
 
