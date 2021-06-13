@@ -1,6 +1,6 @@
 <p align="center">
  <img width="200px" height="200px"  src="https://github.com/future4code/molina-labe-commerce5/blob/master/src/img/capacete_astronauta.png" align="center" alt="Projeto LaberCommerce" />
- <h2 align="center">Projeto LaberCommerce</h2>
+ <h2 align="center">Projeto LabeCommerce</h2>
  <p align="center">Loja ficticia que comercializa equipamentos espaciais </p>
 </p>
 
