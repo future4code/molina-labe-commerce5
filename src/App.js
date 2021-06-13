@@ -1,12 +1,13 @@
-import React from 'react'
-import GlobalStyle from "./components/global"
-import Header from "./components/header"
-import Footer from "./components/footer"
-import Filter from './components/filter'
-import ItemProducts from './components/itemProduct'
-import ItemBasket from './components/itemBasket'
-import {list} from './components/list'
-import styled from 'styled-components'
+import React from "react";
+import GlobalStyle from "./components/global";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Filter from "./components/filter";
+import ItemProducts from "./components/itemProduct";
+import ItemBasket from "./components/itemBasket";
+import { list } from "./components/list";
+import styled from "styled-components";
+import background from "./img/poeira1.jpg";
 
 const Main = styled.div`
   display: flex;
@@ -15,25 +16,24 @@ const Main = styled.div`
   max-width: 100vw;
   height: 100vh;
   margin: 0 auto;
-  
 `;
 
 const FilterContainer = styled.div`
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border: 1px solid white;
   width: 10vw;
   height: 70vh;
   padding: 1rem 1rem;
-  border-radius:25px;
-  p{
+  border-radius: 25px;
+  p {
     margin: 5px 0px;
-    padding:0;
+    padding: 0;
   }
-  h1{
-    margin:0;
+  h1 {
+    margin: 0;
     margin-bottom: 15px;
-    padding:0;
+    padding: 0;
     text-align: center;
   }
 `;
@@ -44,52 +44,52 @@ const Section = styled.div`
   height: 90vh;
   width: 70vw;
   padding: 1rem 1rem;
-`
+`;
 const Info = styled.div`
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin: 0 15px;
-   border: 1px solid black;
-   border-radius:30px;
-   padding: 4px;
-   height:30px;
-   margin:5px;
-   p{
-       font-weight: bold;
-   }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 4px;
+  height: 30px;
+  margin: 5px;
+  p {
+    font-weight: bold;
+  }
 `;
 
 const RightInfo = styled.div`
-    button{
-        margin-left: 10px;
-    }
+  button {
+    margin-left: 10px;
+  }
 `;
 
 const Products = styled.div`
   display: grid;
   align-items: center;
-  justify-items:center;
+  justify-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
- 
 `;
 
 const HideMenu = styled.div`
-    width: 18vw;
-    height: 70vh;   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    border: 1px solid black;
-    border-radius:25px;
-    padding: 1rem 0.5rem;
-    h1, h4{
-      margin:0;
-      margin-bottom: 15px;
-      padding:0;
-    }
+  width: 18vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 1rem 0.5rem;
+  h1,
+  h4 {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+  }
 `;
 
 class App extends React.Component {
@@ -99,11 +99,11 @@ class App extends React.Component {
     showBasket: false,
     filterText: "",
     filterMax: null,
-    filterMin: null,
+    filterMin: null
   };
   componentDidUpdate() {
     const objectMyBasket = {
-      myBasket: this.state.myBasket,
+      myBasket: this.state.myBasket
     };
     localStorage.setItem("myBasket", JSON.stringify(objectMyBasket));
   }
@@ -114,7 +114,7 @@ class App extends React.Component {
 
     if (myBasketObject) {
       this.setState({
-        myBasket: myBasketObject.myBasket,
+        myBasket: myBasketObject.myBasket
       });
     }
   }
@@ -233,9 +233,9 @@ class App extends React.Component {
     //  --------------- Tudo o que aparece na Tela------------------- \\
 
     return (
-      <div>
+      <div style={{ backgroundImage: `url(${background})` }}>
         <GlobalStyle />
-        <Header/>
+        <Header />
         <Main>
           <FilterContainer>
             <Filter
@@ -271,5 +271,5 @@ class App extends React.Component {
     );
   }
 }
-export default App
+export default App;
 //  --------------- Fim de tudo o que Aparece na tela ------------------- \\
