@@ -47,7 +47,7 @@ Após feito isso, você deverá clonar esse repositório, para isso abra o seu <
  <img src="https://github.com/future4code/molina-labe-commerce5/blob/master/src/img/naveg_desktop.gif"><br>
  
  
-copie o link deste repositório como no passo abaixo : <br>
+copie o link deste repositório (para encontra-lo é só ir ao topo desta pagina) como no passo abaixo : <br>
  
  
  <img src="https://github.com/future4code/molina-labe-commerce5/blob/master/src/img/clone_repo.gif"><br>
@@ -69,4 +69,4 @@ copie o link deste repositório como no passo abaixo : <br>
 
 Caso você queira apena ver o projeto online só clicar no link abaixo:<br>
 
-*Inserir o link do surge aqui*
+adjoining-quiet.surge.sh
