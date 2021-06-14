@@ -44,7 +44,7 @@
 
 Após feito isso, você deverá clonar esse repositório, para isso abra o seu <b>Git Bash</b> e navegue utilizando linhas de comando até o seu desktop como está como no exemplo abaixo:<br>
  
- <img src="https://github.com/future4code/molina-labe-commerce5/blob/master/src/img/naveg_desktop.gif"><br>
+ <img width="500px" height="300px" src="https://github.com/future4code/molina-labe-commerce5/blob/master/src/img/naveg_desktop.gif"><br>
  
  
 copie o link deste repositório (para encontra-lo é só ir ao topo desta pagina) como no passo abaixo : <br>
@@ -52,13 +52,14 @@ copie o link deste repositório (para encontra-lo é só ir ao topo desta pagina
  
  <img src="https://github.com/future4code/molina-labe-commerce5/blob/master/src/img/clone_repo.gif"><br>
 
- no <b>Git Bash</b> coloque o comando ``` git clone``` seguido pelo link do repositório que você copiou:
+ no <b>Git Bash</b> coloque o comando ``` git clone``` seguido pelo link do repositório que você copiou:<br>
  
- *git copiando o repositório*
+ <img src="https://user-images.githubusercontent.com/79278484/121829110-053e5b00-cc98-11eb-8702-cf7861ffee90.gif"><br>
+
  
  dentro da pasta do repositório que você acabou de criar, rode o comando ```npm install``` e aguarde, esse processo irá demorar um pouco, isso é totalmente normal.
  
- *algum gif aqui?*
+ <!---*algum gif aqui?*--->
  
  Em seguida coloque o comando ```npm run start``` no <b>Git Bash</b> e aguarde o site abrir no seu navegador. 
  
