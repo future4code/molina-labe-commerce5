@@ -68,6 +68,6 @@ copie o link deste repositório (para encontra-lo é só ir ao topo desta pagina
 
 <h2> Link do surge para conferir a pagina</h2>
 
-Caso você queira apena ver o projeto online só clicar no link abaixo:<br>
+Caso você queira apenas ver o projeto online só clicar no link abaixo:<br>
 
 http://adjoining-quiet.surge.sh
